@@ -1,0 +1,140 @@
+.share-tech-regular {
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+  
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    /* height: 90vh; */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    padding: 15px;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 2% 0 0 20%;
+    
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link{
+    text-decoration: none;
+    color: aqua;
+}
+
+.apresentacao {
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8% 20%;
+} 
+
+.apresentacao__conteudo{ 
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-weight: bold;
+    text-align: justify;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 22px;
+}
+
+
+strong, span{
+    color: aqua;
+}
+
+.apresentacao__conteudo__titulo__destaque{
+    font-size: 40px;
+}
+
+.apresentacao__links__subtitulo{
+    font-weight: 400;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+    
+}
+
+.apresentacao__links__link{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: left;
+    width: 280px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 21.5px 0;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: 2px solid aqua;
+    gap: 16px;
+
+    img{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+.apresentacao__links__link:hover{
+    background-color: rgb(27, 27, 27);
+    color: rgb(255, 255, 255);
+}
+
+.apresentacao__conteudo__imagem{
+    margin-left: 7%;
+}
+
+.rodape{
+    color: black;
+    background-color: aqua;
+    padding: 24px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
